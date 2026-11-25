@@ -1,0 +1,12 @@
+node_modules
+shots
+data
+.git
+.env
+.claude
+docs
+reference
+scripts
+*.md
+!content/**/*.md
+content/_archive

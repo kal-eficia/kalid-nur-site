@@ -1,0 +1,7 @@
+/* Self-hosted, Latin subset only (public/brand/fonts/). Two faces, per docs/rebrand/DESIGN.md. */
+@font-face { font-family: 'Cinzel'; font-style: normal; font-weight: 600; font-display: swap; src: url(/brand/fonts/cinzel-latin-600-normal.woff2) format('woff2'); }
+@font-face { font-family: 'Cinzel'; font-style: normal; font-weight: 700; font-display: swap; src: url(/brand/fonts/cinzel-latin-700-normal.woff2) format('woff2'); }
+@font-face { font-family: 'Inter Tight'; font-style: normal; font-weight: 400; font-display: swap; src: url(/brand/fonts/inter-tight-latin-400-normal.woff2) format('woff2'); }
+@font-face { font-family: 'Inter Tight'; font-style: normal; font-weight: 500; font-display: swap; src: url(/brand/fonts/inter-tight-latin-500-normal.woff2) format('woff2'); }
+@font-face { font-family: 'Inter Tight'; font-style: normal; font-weight: 600; font-display: swap; src: url(/brand/fonts/inter-tight-latin-600-normal.woff2) format('woff2'); }
+@font-face { font-family: 'Inter Tight'; font-style: normal; font-weight: 700; font-display: swap; src: url(/brand/fonts/inter-tight-latin-700-normal.woff2) format('woff2'); }

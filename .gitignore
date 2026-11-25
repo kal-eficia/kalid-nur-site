@@ -1,0 +1,5 @@
+node_modules/
+.env
+shots/
+.DS_Store
+data/

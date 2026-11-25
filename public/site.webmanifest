@@ -1,0 +1,12 @@
+{
+  "name": "Kalid Nur",
+  "short_name": "Kalid Nur",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#F4EFE4",
+  "theme_color": "#16140F",
+  "icons": [
+    { "src": "/brand/favicon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/brand/favicon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

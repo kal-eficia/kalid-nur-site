@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install)",
+      "Bash(npm run *)",
+      "Bash(npx playwright install chromium)",
+      "Bash(node *)",
+      "Bash(curl -s http://localhost:3000/*)"
+    ],
+    "deny": [
+      "Bash(npm install *@latest*)",
+      "Bash(npm update*)"
+    ]
+  }
+}

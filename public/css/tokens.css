@@ -1,0 +1,69 @@
+/* Design tokens: docs/rebrand/DESIGN.md section 3. Never hard-code a colour, size or duration
+   outside these blocks. One palette only: the Morning and Evening editions are retired. */
+:root {
+  /* colour */
+  --ink: #16140F;
+  --ink-2: #4A453C;
+  --ink-3: #6B6357;
+  --paper: #F4EFE4;
+  --paper-2: #EBE4D6;
+  --rule: #CFC5B3;
+  --brass: #7A5C23;
+  --brass-light: #C9A45C;
+  --on-dark-2: #BDB4A3;
+
+  /* type */
+  --font-display: 'Cinzel', 'Trajan Pro', Georgia, serif;
+  --font-body: 'Inter Tight', 'Helvetica Neue', Arial, system-ui, sans-serif;
+  /* Fluid between 390 and 1280 wide: the mobile size from DESIGN.md up to the desktop size. */
+  --fs-h1: clamp(40px, 29.5px + 2.7vw, 64px);
+  --fs-h2: clamp(32px, 24px + 2.03vw, 50px);
+  --fs-h3: clamp(24px, 21.4px + 0.68vw, 30px);
+  --fs-who: clamp(32px, 23.2px + 2.25vw, 52px);
+  --fs-cta: clamp(32px, 20.3px + 2.92vw, 58px);
+  --fs-way: clamp(32px, 26.7px + 1.35vw, 44px);
+  --fs-card: 24px;
+  --fs-lead: clamp(19px, 17.3px + 0.45vw, 23px);
+  --fs-body: 18px;
+  --fs-ui: 17px;
+  --fs-small: 15px;
+  --fs-kicker: 15px;
+  --fs-num: 20px;
+  --lh-tight: 1.08;
+  --lh-head: 1.12;
+  --lh-body: 1.6;
+  --lh-lead: 1.55;
+  --track-kicker: 0.32em;
+  --measure: 66ch;
+
+  /* space and layout */
+  --wrap: 1200px;
+  --gutter: 40px;
+  --section: 96px;
+  --btn-py: 16px;
+  --btn-px: 26px;
+  --link-gap: 3px;
+  --kicker-sq: 7px;
+  --logo-h: 58px;
+  --logo-bleed: -10px;
+  --footer-logo-bleed: -21px;
+  --hero-art-drop: 44px;
+  --hairline: 1px;
+  --rule-strong: 1.5px;
+  --focus: 2px;
+  --focus-offset: 3px;
+
+  /* motion */
+  --dur: 200ms;
+  --dur-reveal: 250ms;
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --lift: 12px;
+  --sidenote-pull: -320px;
+}
+
+@media (max-width: 1079px) {
+  :root { --logo-h: 48px; --logo-bleed: -8px; }
+}
+@media (max-width: 767px) {
+  :root { --gutter: 20px; --section: 64px; --btn-px: 24px; --fs-kicker: 13px; --footer-logo-bleed: -17px; }
+}
